@@ -1,11 +1,14 @@
 from metro_tests_suite.pages.product_page import ProductPage
-from selene import browser, be, have
+from selene import browser, be, have, command
 
 
 def test_enter_delivery_address():
     browser.open('/')
     browser.element('.header-address .header-address__receive-button').click()
-    browser.element('#search-input').type('Санкт-Петербург, Лиговский проспект, 50')
+    # browser.element('#search-input').type('Санкт-Петербург, Лиговский проспект, 50')
+    browser.element('#search-input').perform(
+        command.js.set_value('Санкт-Петербург, Лиговский проспект, 50')
+    )
     browser.element('.obtainment-delivery__address .rectangle-button').click()
     # ПРОБЛЕМНЫЙ СЕЛЕКТОР
     browser.element('.header-address .header-address__receive-address').should(
