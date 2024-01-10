@@ -15,5 +15,5 @@ def test_simple_catalog_section():
     with allure.step('Select the happy new year promobanner'):
         promo_banners.select_the_promobanner()
 
-    with allure.step('Assert'):
+    with allure.step('Assert selected promobanner'):
         promo_banners.assert_selected_promobanner()
