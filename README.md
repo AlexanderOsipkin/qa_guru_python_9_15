@@ -14,6 +14,9 @@ alt="METRO" width="256" height="128"> </a>
 
 ### Проект реализован с использованием
 Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram 
+| Python | Pytest | PyCharm | Selenoid | Selene | Jenkins | Allure Report | Telegram |
+|----------------|---------|----------------|
+| <img src="/Images/python-original.svg" alt="Python" width="45" height="45"> | <img src="/Images/python-original.svg" alt="Python" width="45" height="45"> | По правому краю |
 
 <p align="left">
 <img src="/Images/python-original.svg" alt="Python" width="45" height="45">
