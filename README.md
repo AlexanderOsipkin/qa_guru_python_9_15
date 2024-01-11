@@ -1,6 +1,6 @@
 # Проект по тестированию онлайн-магазина 
 <p align="center">
-<a href="https://online.metro-cc.ru/" target="_blank">
+[LOGO]: <a href="https://online.metro-cc.ru/" target="_blank">
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" 
 alt="METRO" width="128" height="64"> </a> 
 </p>
