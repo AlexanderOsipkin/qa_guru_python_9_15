@@ -1,7 +1,5 @@
 <p align="center"> <h1 align="center">Проект по тестированию онлайн-магазина<a 
-href="https://online.
-metro-cc.ru/" target="_blank"><img src="https://upload.wikimedia.
-org/wikipedia/commons/5/53/Logo_METRO.svg" alt="METRO" width="256" height="128"> 
+href="https://online.metro-cc.ru/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" alt="METRO" width="256" height="128"> 
 </a> </h1> </p>
 
 #### Список реализованных автотестов
@@ -11,14 +9,10 @@ org/wikipedia/commons/5/53/Logo_METRO.svg" alt="METRO" width="256" height="128">
 - Оформление самовывоза заказа по выбранному адресу
 
 ## Структура проекта
-
 ### Проект реализован с использованием
-<p align="center">
-
 |                                   Python                                    |                                   Pytest                                    |                                              PyCharm                                              |                                            Selene                                            |                                    Jenkins                                    |                           Allure Report                            |                                Telegram                                 |
 |:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
 | <img src="/Images/python-original.svg" alt="Python" width="45" height="45"> | <img src="/Images/pytest-original.svg" alt="Pytest" width="45" height="45"> |             <img src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="45" height="45"> |             <img src="/Images/selenoid.png" alt="Selene" width="45" height="45"> | <img src="/Images/jenkins-original.svg" alt="Jenkins" width="45" height="45"> | <img src="/Images/allure.png" alt="Allure" width="45" height="45"> | <img src="/Images/telegram.svg" alt="Telegram" width="45" height="45">  |
-</p>
 
 ## Запуск автотестов выполняется на сервере Jenkins
 > <a target="_blank" href="LINK">Ссылка на проект в Jenkins</a>
