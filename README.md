@@ -1,21 +1,21 @@
-<h1 align="center">Проект по тестированию интернет-магазина 
-<p align="center">
+<h1 align="center">Проект по тестированию онлайн-магазина
 <a href="https://online.metro-cc.ru/" target="_blank">
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" 
 alt="METRO" width="256" height="128"> </a> 
-</p> </h1>
+</h1>
 
-#### Список проверок, реализованных в автотестах
+#### Список реализованных автотестов
 - Добавление товара в корзину
 - Переход по разделам онлайн-магазина
-- Оформление заказа по выбранному и предложенному адресу
+- Оформление доставки заказа по выбранному адресу
+- Оформление самовывоза заказа по выбранному адресу
 
 ## Структура проекта
 
 ### Проект реализован с использованием
 <p align="center">
 
-| Python                                                                                            | Pytest                                                                                            | PyCharm                                                                                         | Selenoid                                                                                   | Jenkins                                                                                             | Allure Report                                                          | Telegram                                                                                     |
+| Python                                                                                            | Pytest                                                                                            | PyCharm                                                                                         | Selene                                                                                     | Jenkins                                                                                             | Allure Report                                                          | Telegram                                                                                     |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | <p align="center"><img src="/Images/python-original.svg" alt="Python" width="45" height="45"></p> | <p align="center"><img src="/Images/pytest-original.svg" alt="Pytest" width="45" height="45"></p> | <p align="center"><img src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="45" height="45"></p> | <p align="center"><img src="/Images/selenoid.png" alt="Selene" width="45" height="45"></p> | <p align="center"><img src="/Images/jenkins-original.svg" alt="Jenkins" width="45" height="45"></p> | <p align="center"><img src="/Images/allure.png" alt="Allure" width="45" height="45"></p> | <p align="center"><img src="/Images/telegram.svg" alt="Telegram" width="45" height="45"></p> |
 </p>
