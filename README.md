@@ -25,18 +25,23 @@ alt="METRO" width="256" height="128"> </a>
 
 ### Для запуска автотестов в Jenkins
 1. Открыть проект
+
 ![This is an image](/Images/Screenshots/Jenkins_main.png)
 
 2. Выбрать пункт "Собрать с параметрами"
+
 ![This is an image](/Images/Screenshots/Jenkins_main.png)
 
 3. В случае необходимости изменить параметры, выбрав значения из выпадающих списков
+
 ![This is an image](/Images/Screenshots/Jenkins_main.png)
 
 4. Нажать "Собрать"
+
 ![This is an image](/Images/Screenshots/Jenkins_main.png)
 
 5. Результат запуска сборки можно посмотреть в отчёте Allure
+
 ![This is an image](/Images/Screenshots/allure_report.png)
 
 ### Локальный запуск автотестов
