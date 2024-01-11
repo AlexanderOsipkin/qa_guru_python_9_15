@@ -1,9 +1,9 @@
-# Проект по тестированию онлайн-магазина 
+<h1>Проект по тестированию онлайн-магазина 
 <p align="center">
-[LOGO]: <a href="https://online.metro-cc.ru/" target="_blank">
+<a href="https://online.metro-cc.ru/" target="_blank">
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" 
 alt="METRO" width="128" height="64"> </a> 
-</p>
+</p></h1>
 
 #### Список реализованных автотестов
 - Добавление товара в корзину
