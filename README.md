@@ -1,23 +1,25 @@
-# Проект по тестированию сайта интернет-магазина METRO
+# Проект по тестированию интернет-магазина METRO
 > <a target="_blank" href="https://online.metro-cc.ru/">METRO</a>
 
 #### Список проверок, реализованных в автотестах
-- [x] Добавление товара в корзину
-- [x] Переход по разделам онлайн-магазина
-- [x] Оформление заказа по выбранному и предложенному адресу
+- Добавление товара в корзину
+- Переход по разделам онлайн-магазина
+- Оформление заказа по выбранному и предложенному адресу
 
 ## Структура проекта
 
 ### Проект реализован с использованием
 Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram 
 
-<img src="/Images/python-original.svg" alt="Python" width="45" height="45"><img 
-src="/Images/pytest-original.svg" alt="Pytest" width="45" height="45"><img 
-src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="45" height="45"><img 
-src="/Images/selenoid.png" alt="Selene" width="45" height="45"><img 
-src="/Images/jenkins-original.svg" alt="Jenkins" width="45" height="45">
-<img src="/Images/allure.png" alt="Allure" width="45" height="45"><img 
-src="/Images/telegram.svg" alt="Telegram" width="45" height="45">
+<p align="left">
+<img src="/Images/python-original.svg" alt="Python" width="45" height="45">
+<img src="/Images/pytest-original.svg" alt="Pytest" width="45" height="45">
+<img src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="45" height="45">
+<img src="/Images/selenoid.png" alt="Selene" width="45" height="45">
+<img src="/Images/jenkins-original.svg" alt="Jenkins" width="45" height="45">
+<img src="/Images/allure.png" alt="Allure" width="45" height="45">
+<img src="/Images/telegram.svg" alt="Telegram" width="45" height="45">
+</p>
 
 ## Запуск автотестов выполняется на сервере Jenkins
 > <a target="_blank" href="LINK">Ссылка на проект в Jenkins</a>
