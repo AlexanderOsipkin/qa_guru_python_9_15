@@ -1,6 +1,9 @@
-<p align="center"> <h1 align="center">Проект по тестированию онлайн-магазина<a 
-href="https://online.metro-cc.ru/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" alt="METRO" width="256" height="128"> 
-</a> </h1> </p>
+<h1 align="center">Проект по тестированию онлайн-магазина 
+<p align="center">
+<a href="https://online.metro-cc.ru/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" 
+alt="METRO" width="256" height="128"> </a> 
+</p> </h1>
 
 #### Список реализованных автотестов
 - Добавление товара в корзину
