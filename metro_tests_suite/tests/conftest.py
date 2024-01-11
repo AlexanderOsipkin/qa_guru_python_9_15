@@ -12,7 +12,7 @@ def setup_browser(request):
     options = Options()
     selenoid_capabilities = {
         'browserName': 'chrome',
-        'browserVersion': "100.0",
+        'browserVersion': '100.0',
         'selenoid:options': {'enableVNC': True, 'enableVideo': True},
     }
     options.capabilities.update(selenoid_capabilities)
@@ -23,8 +23,8 @@ def setup_browser(request):
 
     browser.config.driver = driver
     browser.config.base_url = 'https://online.metro-cc.ru/'
-    browser.config.window_height = 1080
     browser.config.window_width = 1920
+    browser.config.window_height = 1080
 
     yield browser
 
