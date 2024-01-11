@@ -2,7 +2,6 @@
 <a href="https://online.metro-cc.ru/" target="_blank"><img src="/Images/METRO_LOGO.svg" 
 alt="METRO"> width="512" height="256"</a> </h1>
 
-
 <h1 align="center">Проект по тестированию интернет-магазина 
 <a href="https://online.metro-cc.ru/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Logo_METRO.svg" 
 alt="METRO"> width="512" height="256"</a> </h1>
