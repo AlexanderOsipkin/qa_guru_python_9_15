@@ -1,3 +1,7 @@
+<h1 align="center">Проект по тестированию интернет-магазина 
+<a href="https://online.metro-cc.ru/" target="_blank"><img src="/Images/metro-logo.png" 
+alt="METRO"></a> </h1>
+
 # Проект по тестированию интернет-магазина METRO
 > <a target="_blank" href="https://online.metro-cc.ru/">METRO</a>
 
