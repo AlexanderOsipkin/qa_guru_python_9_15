@@ -39,6 +39,9 @@ alt="METRO" width="128" height="64"> </a>
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
+    ```bash
+   gh repo clone AlexanderOsipkin/qa_guru_python_9_15
+      ```
 2. Создайте и активируйте виртуальное окружение
   ```bash
   python -m venv .venv
@@ -48,16 +51,11 @@ alt="METRO" width="128" height="64"> </a>
   ```bash
   pip install -r requirements.txt
   ```
-4. Для запусков тестов локально используйте команду 
+4. Запустите автотесты 
   ```bash
   pytest -sv
   ```
-5. Для запусков тестов удаленно используйте команду 
-  ```bash
-  environment='remote' pytest -sv
-  ```
-
-Получение отчёта allure:
+5. Получение отчёта allure:
 ```bash
 allure serve allure-results
 ``` 
