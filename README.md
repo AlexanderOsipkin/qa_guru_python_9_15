@@ -22,20 +22,13 @@ alt="METRO" width="128" height="64"> </a>
 
 ### Для запуска автотестов в Jenkins
 1. Открыть проект
-
-![This is an image](/Images/Screenshots/img1.png)
-
+<img src="/Images/Screenshots/img1.png">
 2. Выбрать пункт "Собрать с параметрами"
-
-![This is an image](/Images/Screenshots/img2.png)
-
+<img src="/Images/Screenshots/img2.png">
 3. В случае необходимости изменить параметры и нажать на кнопку "build"
-
-![This is an image](/Images/Screenshots/img3.png)
-
+<img src="/Images/Screenshots/img3.png">
 4. Результат запуска сборки можно посмотреть в отчёте Allure
-
-![This is an image](/Images/Screenshots/new_img4.png)
+<img src="/Images/Screenshots/new_img4.png">
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
@@ -61,10 +54,8 @@ allure serve allure-results
 ``` 
 
 ### Пример видеозаписи прохождения теста
-![This is an image](/Images/Screenshots/test.gif)
+<img src="/Images/Screenshots/test.gif" alt="Test example">
 
 ### Настроено автоматическое оповещение о результатах сборки Telegram
-
-
-![This is an image](/Images/Screenshots/new_img5.png)
+<img src="/Images/Screenshots/new_img5.png" alt="Telegram allert">
 
