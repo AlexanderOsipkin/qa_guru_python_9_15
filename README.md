@@ -56,7 +56,7 @@ allure serve allure-results
 ### Пример видеозаписи прохождения теста
 <img src="/Images/Screenshots/test.gif" alt="Test example">
 
-### Настроено автоматическое оповещение о результатах сборки Telegram
+### Настроено автоматическое оповещение о результатах в Telegram
 <p align="center">
 <img src="/Images/Screenshots/new_img5.png" alt="Telegram allert">
 </p>
