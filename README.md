@@ -18,28 +18,24 @@ alt="METRO" width="128" height="64"> </a>
 | <img src="/Images/python-original.svg" alt="Python" width="45" height="45"> | <img src="/Images/pytest-original.svg" alt="Pytest" width="45" height="45"> |             <img src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="45" height="45"> |             <img src="/Images/selenoid.png" alt="Selene" width="45" height="45"> | <img src="/Images/jenkins-original.svg" alt="Jenkins" width="45" height="45"> | <img src="/Images/allure.png" alt="Allure" width="45" height="45"> | <img src="/Images/telegram.svg" alt="Telegram" width="45" height="45">  |
 
 ## Запуск автотестов выполняется на сервере Jenkins
-> <a target="_blank" href="LINK">Ссылка на проект в Jenkins</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/C09-AlexanderOsipkin-unit15/">Ссылка на проект в Jenkins</a>
 
 ### Для запуска автотестов в Jenkins
 1. Открыть проект
 
-![This is an image](/Images/Screenshots/Jenkins_main.png)
+![This is an image](/Images/Screenshots/img1.png)
 
 2. Выбрать пункт "Собрать с параметрами"
 
-![This is an image](/Images/Screenshots/Jenkins_main.png)
+![This is an image](/Images/Screenshots/img2.png)
 
-3. В случае необходимости изменить параметры, выбрав значения из выпадающих списков
+3. В случае необходимости изменить параметры и нажать на кнопку "build"
 
-![This is an image](/Images/Screenshots/Jenkins_main.png)
+![This is an image](/Images/Screenshots/img3.png)
 
-4. Нажать "Собрать"
+4. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![This is an image](/Images/Screenshots/Jenkins_main.png)
-
-5. Результат запуска сборки можно посмотреть в отчёте Allure
-
-![This is an image](/Images/Screenshots/allure_report.png)
+![This is an image](/Images/Screenshots/img4.png)
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий

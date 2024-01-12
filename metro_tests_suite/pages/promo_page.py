@@ -19,6 +19,6 @@ class Promo:
 
     def assert_selected_promobanner(self):
         browser.element('.subcategory-or-type__heading-title').should(
-            have.text('Вагон и маленькая тележка подарков')
+            have.text('Бренди и коньяк до -40%')
         )
         return self

@@ -9,7 +9,7 @@ from utils import attach
 from dotenv import load_dotenv
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope='session', autouse=True)
 def load_env():
     load_dotenv()
 
@@ -18,9 +18,9 @@ def load_env():
 def setup_browser(request):
     options = Options()
     selenoid_capabilities = {
-        "browserName": "chrome",
-        "browserVersion": "100.0",
-        "selenoid:options": {"enableVNC": True, "enableVideo": True},
+        "browserName": 'chrome',
+        "browserVersion": '100.0',
+        "selenoid:options": {'enableVNC': True, 'enableVideo': True},
     }
     options.capabilities.update(selenoid_capabilities)
 
@@ -28,14 +28,14 @@ def setup_browser(request):
     password = os.getenv('PASSWORD')
 
     driver = webdriver.Remote(
-        command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",
+        command_executor=f'https://{login}:{password}@selenoid.autotests.cloud/wd/hub',
         options=options,
     )
 
     browser.config.driver = driver
-    browser.config.base_url = "https://online.metro-cc.ru/"
-    browser.config.window_height = 1080
+    browser.config.base_url = 'https://online.metro-cc.ru/'
     browser.config.window_width = 1920
+    browser.config.window_height = 1080
 
     yield browser
 

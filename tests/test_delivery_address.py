@@ -3,7 +3,7 @@ from metro_tests_suite.pages.delivery_address_page import DeliveryAddress
 
 
 @allure.title('Enter the new delivery address')
-def test_enter_delivery_address():
+def test_enter_delivery_address(setup_browser):
     delivery_address = DeliveryAddress()
 
     with allure.step('Open main page'):
