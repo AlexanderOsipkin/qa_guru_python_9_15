@@ -17,6 +17,7 @@ def load_env():
 @pytest.fixture(scope='function', autouse=True)
 def setup_browser(request):
     options = Options()
+
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
@@ -38,7 +39,7 @@ def setup_browser(request):
 
     browser.config.driver = driver
     browser.config.base_url = 'https://online.metro-cc.ru/'
-    browser.config.timeout = 5
+    browser.config.timeout = 10
     browser.config.window_width = 1920
     browser.config.window_height = 1080
 
