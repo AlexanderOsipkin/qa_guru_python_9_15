@@ -41,6 +41,8 @@ class Product:
         return self
 
     def click_to_the_pickup_button(self):
-        browser.element('[value=pickup]').click()
+        browser.element(
+            '.obtainments-list__item:nth-child(2) .obtainments-list__description'
+        ).click()
         browser.element('[data-qa=button-save-pickup-address]').click()
         return self
