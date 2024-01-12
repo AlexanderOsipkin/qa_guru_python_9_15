@@ -39,9 +39,9 @@ alt="METRO" width="128" height="64"> </a>
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
-    ```bash
-   gh repo clone AlexanderOsipkin/qa_guru_python_9_15
-      ```
+```bash
+gh repo clone AlexanderOsipkin/qa_guru_python_9_15
+```
 2. Создайте и активируйте виртуальное окружение
   ```bash
   python -m venv .venv
