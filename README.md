@@ -35,7 +35,7 @@ alt="METRO" width="128" height="64"> </a>
 
 4. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![This is an image](/Images/Screenshots/img4.png)
+![This is an image](/Images/Screenshots/new_img4.png)
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
@@ -68,5 +68,5 @@ allure serve allure-results
 ### Настроено автоматическое оповещение о результатах сборки Telegram
 <p align="center">
 
-![This is an image](/Images/Screenshots/img5.png)
+![This is an image](/Images/Screenshots/new_img5.png)
 </p>
