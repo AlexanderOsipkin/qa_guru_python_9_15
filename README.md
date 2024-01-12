@@ -39,24 +39,24 @@ alt="METRO" width="128" height="64"> </a>
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
-```python
+```ruby
 gh repo clone AlexanderOsipkin/qa_guru_python_9_15
 ```
 2. Создайте и активируйте виртуальное окружение
-  ```python
+  ```ruby
   python -m venv .venv
   source .venv/bin/activate
   ```
 3. Установите зависимости с помощью pip
-  ```python
+  ```ruby
   pip install -r requirements.txt
   ```
 4. Запустите автотесты 
-  ```python
+  ```ruby
   pytest -sv
   ```
 5. Получите отчёт allure
-```python
+```ruby
 allure serve allure-results
 ``` 
 
