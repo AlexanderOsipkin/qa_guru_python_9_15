@@ -55,7 +55,7 @@ gh repo clone AlexanderOsipkin/qa_guru_python_9_15
   ```bash
   pytest -sv
   ```
-5. Получение отчёта allure:
+5. Получите отчёт allure
 ```bash
 allure serve allure-results
 ``` 
