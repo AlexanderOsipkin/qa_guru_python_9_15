@@ -28,13 +28,13 @@ def setup_browser(request):
     password = os.getenv('PASSWORD')
 
     driver = webdriver.Remote(
-        command_executor=f'https://{login}:{password}@95.216.214.178:8080',
+        command_executor=f'https://{login}:{password}@selenoid.autotests.cloud/wd/hub',
         options=options,
     )
 
     browser.config.driver = driver
     browser.config.base_url = 'https://online.metro-cc.ru/'
-    browser.config.timeout = 10
+    browser.config.timeout = 2
     browser.config.window_width = 1920
     browser.config.window_height = 1080
 

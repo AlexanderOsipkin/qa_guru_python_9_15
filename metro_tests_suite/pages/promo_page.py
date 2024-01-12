@@ -9,16 +9,14 @@ class Promo:
         browser.open('/')
         return self
 
-    def swipe_promobanners(self):
-        browser.element('.swiper-pagination-bullet:nth-child(2)').click()
-        return self
-
     def select_the_promobanner(self):
-        browser.element('.swiper-slide:nth-child(5) .promobanners-slider-item').click()
+        browser.element(
+            '.header-categories__item:nth-child(2) > .header-categories__item-link'
+        ).click()
         return self
 
     def assert_selected_promobanner(self):
         browser.element('.subcategory-or-type__heading-title').should(
-            have.text('Бренди и коньяк до -40%')
+            have.text('Распродажа: скидки до 70%')
         )
         return self
