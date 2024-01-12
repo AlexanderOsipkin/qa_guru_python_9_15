@@ -63,7 +63,7 @@ allure serve allure-results
 ``` 
 
 ### Пример видеозаписи прохождения теста
-![This is an image](/Images/Screenshots/test_gif.gif)
+![This is an image](/Images/Screenshots/test.gif)
 
-### Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
-![This is an image](/Images/Screenshots/bot.png)
+### Настроено автоматическое оповещение о результатах сборки Telegram
+![This is an image](/Images/Screenshots/img5.png)
