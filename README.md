@@ -64,7 +64,7 @@ allure serve allure-results
 ![This is an image](/Images/Screenshots/test.gif)
 
 ### Настроено автоматическое оповещение о результатах сборки Telegram
-<p align="center">
+
 
 ![This is an image](/Images/Screenshots/new_img5.png)
-</p>
+
