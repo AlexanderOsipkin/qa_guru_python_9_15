@@ -1,5 +1,4 @@
 from selene import browser, have, be
-from tests import conftest
 import time
 
 
