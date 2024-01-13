@@ -15,7 +15,7 @@ def load_env():
 
 
 @pytest.fixture(scope='function', autouse=True)
-def setup_browser(request):
+def setup_browser():
     options = Options()
 
     options.add_argument('--no-sandbox')
@@ -43,7 +43,7 @@ def setup_browser(request):
     browser.config.window_width = 1920
     browser.config.window_height = 1080
 
-    yield browser
+    yield
 
     attach.add_screenshot(browser)
     attach.add_logs(browser)

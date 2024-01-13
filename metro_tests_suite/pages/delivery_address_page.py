@@ -4,8 +4,6 @@ import time
 
 
 class DeliveryAddress:
-    browser = conftest.setup_browser
-
     def open_main_page(self):
         browser.open('/')
         return self

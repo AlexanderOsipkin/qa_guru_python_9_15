@@ -4,8 +4,6 @@ import time
 
 
 class Product:
-    browser = conftest.setup_browser
-
     def open_main_page(self):
         browser.open('/')
         return self
